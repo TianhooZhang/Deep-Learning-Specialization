@@ -25,12 +25,12 @@ dtype('int32')
 
 They also support array-style slicing. This is how you read and write data from a dataset in the file:
 
->>> dset[...] = np.arange(100)
->>> dset[0]
-0
->>> dset[10]
-10
->>> dset[0:100:10]
-array([ 0, 10, 20, 30, 40, 50, 60, 70, 80, 90])
+>>> dset[...] = np.arange(100) /n
+>>> dset[0] /n
+0 /n
+>>> dset[10] /n
+10 /n
+>>> dset[0:100:10] /n
+array([ 0, 10, 20, 30, 40, 50, 60, 70, 80, 90]) /n
 
 
